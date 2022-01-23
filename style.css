@@ -1,0 +1,20 @@
+:root {
+    --background: #E6E6E7;
+    --primary: #05AA6C;
+}
+
+body {
+    background-color: #E6E6E7;
+}
+
+.cards {
+    display: grid;
+}
+
+.card {
+    padding: 1rem;
+    width: 30%;
+    margin: 1rem;
+    background-color: white;
+    border-left: solid var(--primary) 0.5rem;
+}

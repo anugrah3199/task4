@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task 4</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,7 +15,7 @@
         <p>Company Matrices:</p>
         <div class="cards">
             <div class="card">
-                <p><big>7283</big></p>
+                <p style="color: red;"> <big>7283</big></p>
                 <p><small>Total Revenue</small></p>
             </div>
             <div class="card">
@@ -30,7 +31,7 @@
                 <p><small>Total Revenue</small></p>
             </div>
             <div class="card">
-                <p><big>7283</big></p>
+                <p style="color: green;"><big>7283</big></p>
                 <p><small>Total Revenue</small></p>
             </div>
             <div class="card">
@@ -48,10 +49,18 @@
         </div>
     </div>
     <div class="charts">
-        <div class="chart1"></div>
-        <div class="chart2"></div>
+        <div class="canva">
+            <h3>Revenue by Job Location</h3>
+            <div class="chart" id="chart1"></div>
+        </div>
+        <div class="canva">
+            <h3>Revenue by Job type</h3>
+            <div class="chart" id="chart2"></div>
+        </div>
+
     </div>
 
 </body>
+<script src="app.js"></script>
 
 </html>
